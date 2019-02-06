@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: MocExu30JlxJby/ACQjYET88DBKMaH+wu5Q1yyHGP9Xni7QirIQL/CN7mWlLdYcATqWuKTV/vVx6M+9mgVgNBrrUD2XTN/ps0I5OCIYXvFBMi7YilimCuQ3yYXqMfzGIcX9sE+sWzeucE6xPbzzKkGnx4ykpWBPjuTvNR6mBGF0WN6VLNXH9FuDa4erYB6hLxPvrc30Mv3EgXLoHSie5/6mfxrKAqsMKs+A+C8HmMSrIAqmVqL4D3wlxChnohX6Uo/vKWYTUqkvx3p9NNLQs1KAx2P4OGyBHlHlnFrNtyqTNRpNSyXE3Rvlo9Fl9lEKD+hTJ+2p+57/IpahWMTlpoQN8hXTZbOpGYs9usUXWW9kkyBjA/tuWeZe3GMXdXgefynXy7y7+OcQo5MxrHijMwej+Xj0YdgZUWkRDpaJ962LVapjErZ0py+0VMRwGF6FRZ9THQVMgCZKGfXIk53uHqKrytCxrkQjK6lfwA3X+IOEeXoNCR03tBLlu0qDcC7dbQfn20bolSY7BoprYWObvhKUdb2O6K0QQQhfl6O7eP1ISULIhzYsDCXNsLWXd0AMj1d/sG+MJTd5vpUh0wRFTlT/ueWjB0148sSN7zEAle+PeAH+n2bYPuIFcyqVG8fQSdl5UUfKyC0/DO/FcDLmwfzzWUxINNRHlsEIG7F/hSn0=
+  app: obscure-bayou-13296
+  on:
+    repo: Richardek/blog-app-mongoose-challenge-solution
